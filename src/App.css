@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.users{
+  background-color: #cefff5;
+}
+.posts{
+  background-color: #d9ff8b;
+}
+.comments{
+  background-color: #efc3ff;
+}
