@@ -4,7 +4,7 @@ import Comment from "./Comment";
 const Comments = () => {
     let [comments, setComments] = useState([])
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/users/1/comments')
+        fetch('https://jsonplaceholder.typicode.com/comments')
                     .then(value => value.json())
                     .then(value => {
                         setComments(value)
