@@ -41,6 +41,8 @@
 }
 .posts{
   background-color: #d9ff8b;
+  display: flex;
+  flex-wrap: wrap;
 }
 .comments{
   background-color: #efc3ff;

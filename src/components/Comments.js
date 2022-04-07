@@ -3,7 +3,7 @@ import Comment from "./Comment";
 import {getComments} from "../servises/api";
 
 const Comments = () => {
-    let [comments, setComments] = useState([])
+    const [comments, setComments] = useState([])
     useEffect(() => {
         getComments().then(value => setComments([...value.data]))
     }, [])

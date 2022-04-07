@@ -14,7 +14,10 @@ const getUser = (id) => {
 const getPosts = () => {
     return axiosInstance.get('/posts')
 }
+const getPost = (id) => {
+    return axiosInstance.get('/posts/'+id)
+}
 const getComments = () => {
     return axiosInstance.get('/comments')
 }
-export {getUsers, getUser, getPosts, getComments}
+export {getUsers, getUser, getPosts, getPost, getComments}

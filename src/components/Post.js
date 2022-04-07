@@ -1,10 +1,14 @@
 import React from 'react';
+import './post.css'
 
-const Post = ({post}) => {
-    const {userId, id, title, body} = post
+const Post = ({post, choosePost}) => {
+    const {userId, id} = post
     return (
-        <div>
-             {userId} -- {id} -- {title} -- {body}
+        <div className={'post'}>
+            {userId} -- {id} --
+            <button onClick={() => {
+                choosePost(post.id)
+            }}>Post info</button>
         </div>
     );
 };
