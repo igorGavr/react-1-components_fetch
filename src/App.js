@@ -10,7 +10,7 @@ function App() {
 
     return (
         <div className="App">
-            hw_2
+            hw_2_1
         </div>
     );
 }
