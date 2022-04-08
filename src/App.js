@@ -10,7 +10,7 @@ function App() {
 
     return (
         <div className="App">
-            master
+            hw_2
         </div>
     );
 }
