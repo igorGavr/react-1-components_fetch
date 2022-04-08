@@ -10,17 +10,7 @@ function App() {
 
     return (
         <div className="App">
-            <div className={'users'}>
-                <Users/>
-            </div>
-            <hr/>
-            <div className={'posts'}>
-                <Posts/>
-            </div>
-            <hr/>
-            <div className={'comments'}>
-                <Comments/>
-            </div>
+            master
         </div>
     );
 }
